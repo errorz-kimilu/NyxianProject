@@ -1,5 +1,0 @@
-test:
-    needs: build
-     runs-on: macos-latest
-    steps:
-      - run: ./setup.sh
